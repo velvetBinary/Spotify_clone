@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Spotify</h2>
+      <ul>
+        <li>Home</li>
+        <li>Search</li>
+        <li>Your Library</li>
+      </ul>
+      <button id="toggle-theme">Toggle Light/Dark</button>
+    </aside>
+
+    <main class="main-content">
+      <input type="text" id="searchInput" placeholder="Search songs..." />
+      <h3>My Playlist</h3>
+      <div class="playlist-grid" id="playlist">
+        <!-- JS will inject song cards here -->
+      </div>
+    </main>
+  </div>
+
+  <footer class="music-player">
+    <div class="now-playing" id="nowPlaying">
+      Now Playing: -
+    </div>
+    <div class="controls">
+      <button id="playPauseBtn">▶️ Play</button>
+    </div>
+    <audio id="audioPlayer" src=""></audio>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
