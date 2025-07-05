@@ -1,10 +1,10 @@
 // Playlist data
 const songs = [
-  { title: "Havana", file: "1.mp3" },
-  { title: "Party 4U", file: "2.mp3" },
-  { title: "Shape of You", file: "3.mp3" },
-  { title: "Despacito", file: "4.mp3" },
-  ];
+  { title: "Havana", file: "music/1.mp3" },
+  { title: "Party 4U", file: "music/2.mp3" },
+  { title: "Shape of You", file: "music/3.mp3" },
+  { title: "Despacito", file: "music/4.mp3" },
+];
 
 // DOM Elements
 const playlistGrid = document.getElementById("playlist");
